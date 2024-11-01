@@ -1,0 +1,147 @@
+/*video list*//*video list*//*video list*//*video list*//*video list*//*video list*//*video list*//*video list*//*video list*//*video list*/
+/*video list*//*video list*//*video list*//*video list*//*video list*//*video list*//*video list*//*video list*//*video list*//*video list*/
+/*video list*//*video list*//*video list*//*video list*//*video list*//*video list*//*video list*//*video list*//*video list*//*video list*/
+/*video list*//*video list*//*video list*//*video list*//*video list*//*video list*//*video list*//*video list*//*video list*//*video list*/
+
+.you_tube_click{
+	float:left;
+	display:block;
+	width:100%;
+	height:110px;
+	clear:both;
+	margin:10px 0 20px 0;
+	overflow:hidden;
+	background-color:#ffffff;
+}
+.you_tube_click:hover{
+	cursor:pointer;
+	background:#eee;
+}
+.you_tube_click img{
+	padding:0;
+	margin:0;
+	border:0;
+}
+.you_tube_click h2{
+	margin:0;
+	padding:0;
+	font-size:18px;
+	clear:none;
+}
+.you_tube_click  p{
+	margin:0;
+	padding:0;
+}
+.image_place{
+	float:left;
+	width:200px;
+	height:110px;
+}
+.text_place{
+	margin-left:205px;
+}
+
+/*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*/
+/*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*/
+/*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*/
+/*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*//*pager*/
+
+#youtube_pager_bar{
+	float:left;
+	clear:both;
+	margin-bottom:20px;
+}
+.ytoutube_pager a{
+	padding:10px 15px;
+	border:1px solid #ddd;
+	margin:0 10px 20px 0;
+}
+.ytoutube_pager a, .ytoutube_pager a:hover, .ytoutube_pager a:visited, .ytoutube_pager a:visited:hover{
+	text-decoration:none;
+}
+.ytoutube_pager a:hover{
+	background-color:#eee;
+}
+
+/*search form*//*search form*//*search form*//*search form*//*search form*//*search form*//*search form*//*search form*//*search form*//*sform*/
+/*search form*//*search form*//*search form*//*search form*//*search form*//*search form*//*search form*//*search form*//*search form*//*sform*/
+/*search form*//*search form*//*search form*//*search form*//*search form*//*search form*//*search form*//*search form*//*search form*//*sform*/
+/*search form*//*search form*//*search form*//*search form*//*search form*//*search form*//*search form*//*search form*//*search form*//*sform*/
+
+.search_youtube{
+	margin:20px 0;
+}
+.search_youtube #youtube{
+	border:1px solid #ddd;
+}
+.search_youtube #youtube:hover{
+	background-color:#ddd;
+}
+.search_youtube input{
+	display:inline;
+}
+.search_youtube h1{
+	display:inline;
+	font-size:20px;
+	float:right;
+	margin:0;
+	padding:0 10px 0 0;
+}
+
+/*not found videos*//*not found videos*//*not found videos*//*not found videos*//*not found videos*//*not found videos*//*not found videos*/
+/*not found videos*//*not found videos*//*not found videos*//*not found videos*//*not found videos*//*not found videos*//*not found videos*/
+/*not found videos*//*not found videos*//*not found videos*//*not found videos*//*not found videos*//*not found videos*//*not found videos*/
+/*not found videos*//*not found videos*//*not found videos*//*not found videos*//*not found videos*//*not found videos*//*not found videos*/
+
+.youtube_not_found{
+	display:block;
+	width:100%;
+	float:left;
+	clear:both;
+	margin:50px 0;
+}
+.youtube_not_found p{
+	text-align:center;
+	display:block;
+}
+
+/*watch window*//*watch window*//*watch window*//*watch window*//*watch window*//*watch window*//*watch window*//*watch window*//*watch window*/
+/*watch window*//*watch window*//*watch window*//*watch window*//*watch window*//*watch window*//*watch window*//*watch window*//*watch window*/
+/*watch window*//*watch window*//*watch window*//*watch window*//*watch window*//*watch window*//*watch window*//*watch window*//*watch window*/
+/*watch window*//*watch window*//*watch window*//*watch window*//*watch window*//*watch window*//*watch window*//*watch window*//*watch window*/
+
+#youtube_window{
+	width:560px;
+	height:315px;
+	float:left;
+	background-color:#000;
+	background-image:url(images/loading.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	display:none;
+	position:fixed;
+	top:25%;
+	left:50%;
+	margin-left:-280px;
+	-moz-box-shadow: 0 0 30px #000;
+	-webkit-box-shadow: 0 0 30px #000;
+	box-shadow: 0 0 30px #000;
+	z-index:99999;
+}
+#youtube_window_close{
+	display:none;
+	position:fixed;
+	background-image:url(images/closeoff.png);
+	width:50px;
+	height:50px;
+	float:right;
+	top:25%;
+	left:50%;
+	margin-left:230px;
+	margin-top:-50px;
+	z-index:99999;
+}
+#youtube_window_close:hover{
+	background-image:url(images/close.png);
+	cursor:pointer;
+}
